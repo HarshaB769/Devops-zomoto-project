@@ -15,7 +15,7 @@ pipeline {
         }
         stage ("Git Checkout") {
             steps {
-                git ''
+                git 'https://github.com/HarshaB769/Devops-zomoto-project'
             }
         }
         stage("Sonarqube Analysis"){
