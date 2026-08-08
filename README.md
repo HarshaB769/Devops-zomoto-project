@@ -261,7 +261,7 @@ Devops Workflow
         ▼                  ▼
  ┌──────────────┐   ┌──────────────────┐
  │   Argo CD    │   │    Prometheus    │
- │   GitOps     │   │ + Node Exporter │
+ │   GitOps     │   │ + Node Exporter  │
  └──────────────┘   └────────┬─────────┘
                               │
                               ▼
