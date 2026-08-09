@@ -13,9 +13,10 @@ pipeline {
                 cleanWs()
             }
         }
-        stage ("Git Checkout") {
+        stage('Git Checkout') {
             steps {
-                git 'https://github.com/HarshaB769/Devops-zomoto-project'
+                git branch: 'main',
+                url: 'https://github.com/HarshaB769/Devops-zomoto-project'
             }
         }
         stage("Sonarqube Analysis"){
